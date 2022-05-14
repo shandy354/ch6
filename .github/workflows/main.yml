@@ -28,6 +28,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: "014ea6ef-f2a5-49d0-a571-4e653ebd5b03"
+          heroku_api_key: "8c392336-d8ef-4178-8f7d-fd6e15450df3"
           heroku_app_name: "ch6"
           heroku_email: "shandyabc313@gmail.com"

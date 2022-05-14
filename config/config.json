@@ -14,10 +14,19 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "root",
-    "database": "db_challenge",
-    "host": "localhost",
-    "dialect": "postgres"
+    "url":"//jvyydsuzpzvwsc:4b8455fbd8108de0edf3c3e39cd206750b6c68e61990d77c338b7a102ef01b18@ec2-44-196-223-128.compute-1.amazonaws.com:5432/d57hbnn23rpb69",
+    "port":5432,
+    "username": "jvyydsuzpzvwsc",
+    "password": "4b8455fbd8108de0edf3c3e39cd206750b6c68e61990d77c338b7a102ef01b18",
+    "database": "d57hbnn23rpb69",
+    "host": "ec2-44-196-223-128.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectiOptions":{
+
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
   }
 }
